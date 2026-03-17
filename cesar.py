@@ -20,7 +20,7 @@ def cifrado_cesar(texto, desplazamiento):
 if __name__ == "__main__":
     # Verifica que se entreguen exactamente 2 argumentos (+ el nombre del script)
     if len(sys.argv) != 3:
-        print("Uso: sudo python3 cesar.py \"<texto_a_cifrar>\" <desplazamiento>")
+        print("Uso: py cesar.py \"<texto_a_cifrar>\" <desplazamiento>")
         sys.exit(1)
 
     texto_ingresado = sys.argv[1]
